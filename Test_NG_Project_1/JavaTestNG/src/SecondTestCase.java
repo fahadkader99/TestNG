@@ -1,4 +1,4 @@
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 public class SecondTestCase {
 
@@ -25,5 +25,15 @@ public class SecondTestCase {
     @Test(priority = 10)
     void addToCart(){
         System.out.println("Item added to cart test");
+    }
+
+    @BeforeTest
+    void setUp(){
+        System.out.println("++Before++");
+    }
+
+    @AfterTest
+    void cleanUp(){
+        System.out.println("--After Method--");
     }
 }
