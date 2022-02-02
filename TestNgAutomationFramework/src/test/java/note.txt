@@ -1,0 +1,9 @@
+Java folder - will have all the .java files. || all the codes
+
+Resource folder - will have all the data except the code or .java files
+
+
+
+Official Documentation: https://testng.org/doc/documentation-main.html
+
+use the documentation for any xml || testNg related work
