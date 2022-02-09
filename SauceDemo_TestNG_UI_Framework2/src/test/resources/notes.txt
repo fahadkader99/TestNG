@@ -1,0 +1,32 @@
+Home-Assignment
+
+
+1. Open website https://www.saucedemo.com/
+2. Do Login & verify home page
+3. Click on Item - "Sauce Labs Bike Light"
+4. Verify product details page
+5. Click on add to cart button
+6. Click on cart icon
+7. Verify Cart Page
+8. Click on Continue Shopping
+9. Click on Item - "Sauce Labs Bolt T-Shirt"
+10. Verify product details page
+11. Click on add to cart button
+12. Click on cart icon
+13. Verify two items displayed on cart page
+14. Click on Checkout
+15. Fill checkout details & click on Continue
+16. Verify Overview Page
+17.  Click on finish
+
+18. Verify order confirmation page
+
+
+How to take Screenshots:   ???????
+
+    To get screenshot of failed test, we need the help of testNG listeners.
+
+
+Note:
+
+Add more requirements to practice at night

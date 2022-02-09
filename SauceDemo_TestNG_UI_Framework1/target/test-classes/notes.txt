@@ -1,0 +1,31 @@
+Features of TestNG Automation Framework
+1) Read data from external sources (.properties file)
+2) Re-usability
+3) Scalability
+4) Design pattern we've used is Page Object Model which are industry standards
+5) Runner file - Single point to run all our tests
+6) Reporting - TestNG Reports
+
+
+
+
+
+ < HomeAssignment - End-to-End Test > TestNG
+
+
+1. Open website https://www.saucedemo.com/
+2. Do Login & verify home page
+3. Click on Item - Sauce Labs Backpack
+4. Verify product details page
+5. Click on add to cart button
+6. Click on cart icon
+7. Verify Cart Page
+8. Click on Checkout
+9. Fill checkout details & click on Continue
+10. Verify Overview Page
+11. Click on finish
+12. Verify order confirmation page
+
+saucedemo.comsaucedemo.com
+Swag Labs
+Sauce Labs Swag Labs app
