@@ -1,0 +1,53 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression Test" verbose="1" >
+    <test name="Login Test" >
+        <classes>
+            <class name="com.automation.test.LoginTest" />
+        </classes>
+    </test>
+
+    <test name="HomePage Test" >
+        <classes>
+            <class name="com.automation.test.HomePageTest" />
+        </classes>
+    </test>
+
+    <test name="Bike Light Test" >
+        <classes>
+            <class name="com.automation.test.BikeLightPageTest" />
+        </classes>
+    </test>
+
+    <test name="T_shirt Test" >
+        <classes>
+            <class name="com.automation.test.TshirtTest" />
+        </classes>
+    </test>
+
+    <test name="CartPage Test" >
+        <classes>
+            <class name="com.automation.test.CartPageTest" />
+        </classes>
+    </test>
+
+    <test name="CheckOut Test" >
+        <classes>
+            <class name="com.automation.test.CheckoutTest" />
+        </classes>
+    </test>
+
+    <test name="Overview Test" >
+        <classes>
+            <class name="com.automation.test.OverviewPageTest" />
+        </classes>
+    </test>
+
+    <test name="Confirmation Test" >
+        <classes>
+            <class name="com.automation.test.ConfirmationPageTest" />
+        </classes>
+    </test>
+
+
+</suite>
