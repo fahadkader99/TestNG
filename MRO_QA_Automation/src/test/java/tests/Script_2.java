@@ -5,8 +5,10 @@ import org.testng.annotations.Test;
 public class Script_2 extends Base_Test{
 
 
-    @Test
+    @Test(priority = 2)
     public void create_new_compliance_event() throws Exception {
+        logger = extent.createTest("Create Event Test");
+
         loginPage.doLogin();
         loginPage.click_logOnBtn();
 
@@ -17,6 +19,14 @@ public class Script_2 extends Base_Test{
         eventPage.select_dropDowns();
         eventPage.send_even_summary();
         eventPage.send_event_description();
+
+        eventPage.workFlow_selection();
+        eventPage.eventDetails_selection();
+
+        eventPage.click_saveAndClose();
+        eventPage.logout();
+
+
 
 
     }

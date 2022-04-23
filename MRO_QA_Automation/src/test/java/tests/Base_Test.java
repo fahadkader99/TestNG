@@ -11,8 +11,10 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
+import test.java.pages.EditCompliancePage;
 import test.java.pages.EventPage;
 import test.java.pages.HomePage;
 import test.java.pages.LoginPage;
@@ -34,9 +36,10 @@ public abstract class Base_Test {
     LoginPage loginPage;
     HomePage homePage;
     EventPage eventPage;
+    EditCompliancePage editCompliancePage;
 
 
-    @BeforeTest
+    @BeforeSuite
     public void beforeTestMethod() {
         // extent report files
         htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+ File.separator + "reports" +File.separator+ "AutomationReport.html");
@@ -56,17 +59,20 @@ public abstract class Base_Test {
     public void startUp(String browser, Method testMethod) {
 
         // creating a testMethod: it will pick up whichever method is getting executed & will create a test according to the method name. Using it to get the name of the test to use it for the report
-        logger = extent.createTest(testMethod.getName());
+        //logger = extent.createTest(testMethod.getName());
 
         setDriver(browser);
         //driver.manage().window().maximize();
         driver.get(Property_Reader.getProperty("app.url"));
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
+
         // Object for each Page
         loginPage = new LoginPage();
         homePage = new HomePage();
         eventPage = new EventPage();
+        editCompliancePage = new EditCompliancePage();
+
 
 
     }
@@ -77,16 +83,19 @@ public abstract class Base_Test {
         // additional values adding to our reports
 
         if (result.getStatus() == ITestResult.SUCCESS) {
-            String methodName = result.getMethod().getMethodName();
-            String logText = "Test Case: " + methodName + " Passed";
-            Markup m = MarkupHelper.createLabel(logText, ExtentColor.GREEN);
-            logger.log(Status.PASS, m);
+
+            logger.pass(MarkupHelper.createLabel(result.getName()+" Test Case Passed", ExtentColor.GREEN));
+
         }
         else if (result.getStatus() == ITestResult.FAILURE) {
-            String methodName = result.getMethod().getMethodName();
-            String logText = "Test Case: " + methodName + " Failed";
-            Markup m = MarkupHelper.createLabel(logText, ExtentColor.RED);
-            logger.log(Status.FAIL, m);
+
+            logger.fail(MarkupHelper.createLabel(result.getName()+" Test Case Failed", ExtentColor.RED));
+            logger.fail(result.getThrowable());
+        }
+        else if(result.getStatus()==ITestResult.SKIP){
+
+            logger.skip(MarkupHelper.createLabel(result.getName()+" Test Case Skipped", ExtentColor.YELLOW));
+            logger.skip(result.getThrowable());
         }
 
 
@@ -96,7 +105,7 @@ public abstract class Base_Test {
     }
 
 
-    @AfterTest
+    @AfterSuite
     public void afterTestMethod() {
 
         // just flushing all the reports
