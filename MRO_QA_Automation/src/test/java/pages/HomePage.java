@@ -57,7 +57,7 @@ public class HomePage extends Base_Page {
             System.out.println(allLinks.get(i).getAttribute("href"));
             afterLinks.add(allLinks.get(i));
         }
-        Assert.assertEquals(afterLinks, afterLinks, "The number of links are not matching");
+        softAssert.assertEquals(allLinks.size(), afterLinks, "The number of links are not matching");
 
         // Requirement ask to validate Links, but can't validate the links --> so I am just printing the links above
     }
