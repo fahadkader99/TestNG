@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="599ed907-1018-43f7-ad4e-09a2a67d4475" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automation/pages/LandingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automation/pages/LogInPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/HomePage_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/LandingPage_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automation/utils/ExtendReporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automation/utils/Listeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Project.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automation/pages/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automation/tests/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automation/utils/Base_Class.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/automation/pages/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/automation/tests/Base.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/config/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config/data.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2998Zh4RqJtavYcMl5VgaMuOGd1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/driver" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/driver" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/fahadkader/Desktop/Git/TestNG/RSA_Selenium_v1/testng.xml">
+    <configuration name="HomePage_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RSA_Selenium_v1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automation.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automation.pages" />
+      <option name="MAIN_CLASS_NAME" value="automation.tests.HomePage_Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePage_Test.basePageNavigation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RSA_Selenium_v1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automation.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automation.tests" />
+      <option name="MAIN_CLASS_NAME" value="automation.tests.HomePage_Test" />
+      <option name="METHOD_NAME" value="basePageNavigation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LandingPage_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RSA_Selenium_v1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automation.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automation.tests" />
+      <option name="MAIN_CLASS_NAME" value="automation.tests.LandingPage_Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LandingPage_Test.landingPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RSA_Selenium_v1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automation.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automation.tests" />
+      <option name="MAIN_CLASS_NAME" value="automation.tests.LandingPage_Test" />
+      <option name="METHOD_NAME" value="landingPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/fahadkader/Desktop/Git/TestNG/RSA_Selenium_v1/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RSA_Selenium_v1" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/fahadkader/Desktop/Git/TestNG/RSA_Selenium_v1/testng.xml" />
+        <item itemvalue="TestNG.HomePage_Test" />
+        <item itemvalue="TestNG.LandingPage_Test.landingPage" />
+        <item itemvalue="TestNG.LandingPage_Test" />
+        <item itemvalue="TestNG.HomePage_Test.basePageNavigation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="599ed907-1018-43f7-ad4e-09a2a67d4475" name="Changes" comment="" />
+      <created>1652513998430</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652513998430</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

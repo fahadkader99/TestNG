@@ -5,8 +5,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import test.java.tests.Base_Test;
 
-import java.util.concurrent.TimeUnit;
-
 public abstract class Base_Page {
 
     WebDriver driver;
@@ -14,8 +12,15 @@ public abstract class Base_Page {
 
     Base_Page(){
         this.driver = Base_Test.driver;
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        this.wait = new WebDriverWait(driver, 8);
+        this.wait = new WebDriverWait(driver, 10);
         PageFactory.initElements(driver, this);
     }
 }
+
+
+
+
+/*
+ Link to tutorial -
+ https://www.youtube.com/watch?v=L7P5fqW2kck
+ */

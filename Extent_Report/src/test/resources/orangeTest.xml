@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MRO Test Suite">
+    <listeners>
+        <listener class-name="com.testNgListeners.Listener"/>
+    </listeners>
+    <test name="OrangeHRM">
+        <classes>
+               
+                    <class name="com.testNgListeners.OrangeHRMTest">
+
+                    </class>
+            
+        </classes>
+    </test>
+
+
+</suite>

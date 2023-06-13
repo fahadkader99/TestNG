@@ -1,0 +1,9 @@
+##### Log levels in extent report #####
+
+1. fail
+2. Skip
+3. warning
+4. pass
+5. Info 
+
+// the first oder become the main result fro the whole test result

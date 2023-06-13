@@ -41,6 +41,7 @@ public class Files {
     }
     @Test
     public static void write_to_excel() throws Exception{
+        String a = "01/12/2022";
 
         XSSFWorkbook workbook = new XSSFWorkbook();
         XSSFSheet sheet = workbook.createSheet("write_test");
@@ -51,7 +52,7 @@ public class Files {
 
         sheet.createRow(1);
         sheet.getRow(1).createCell(0).setCellValue("Pass");
-        sheet.getRow(1).createCell(1).setCellValue("Fail");
+        sheet.getRow(1).createCell(1).setCellValue(a);
 
         File file = new File("src/test/resources/data/write_test.xlsx");
         FileOutputStream fos = new FileOutputStream(file);
@@ -75,6 +76,6 @@ public class Files {
 
         System.out.println(data1+" "+ data2+" "+data3+" "+ data4);
     }
-
+    
 
 }
