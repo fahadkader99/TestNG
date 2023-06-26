@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suit">
+<listeners>
+		<listener class-name="com.testNgReporter.TestListener2" />
+</listeners>
+
+	<test name="Full Class Test">
+		<classes>
+			<class name="com.testNGTests.Test101">
+			</class>
+		</classes>
+	</test>
+
+	<!--We can run the whole class & it will run all the method in the class or we can mention the class & the method we want to run-->
+
+
+
+</suite>

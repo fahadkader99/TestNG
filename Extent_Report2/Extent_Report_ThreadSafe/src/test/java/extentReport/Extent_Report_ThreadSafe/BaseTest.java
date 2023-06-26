@@ -1,4 +1,4 @@
-package com.testNgListeners;
+package extentReport.Extent_Report_ThreadSafe;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
